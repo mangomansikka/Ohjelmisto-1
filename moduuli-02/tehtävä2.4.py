@@ -1,3 +1,4 @@
+import math
 
 ensimmäinen_kokonaisluku_str = input("Anna ensimmäinen kokonaisluku: ")
 toinen_kokonaisluku_str = input("Anna toinen kokonaisluku: ")
