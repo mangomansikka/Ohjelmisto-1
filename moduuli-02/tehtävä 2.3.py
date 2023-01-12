@@ -1,4 +1,4 @@
-
+import math
 
 suorakulmion_kanta_str = input("Anna suorakulmion kanta metreinä: ")
 suorakulmion_korkeus_str = input ("Anna suorakulmion korkeus metreinä: ")
