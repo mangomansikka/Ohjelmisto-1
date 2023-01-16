@@ -5,7 +5,7 @@ montako senttiä alimmasta sallitusta pyyntimitasta puuttuu.
 Kuha on alamittainen, jos sen pituus on alle 37 cm.
 
 """
-import math
+
 kuhan_pituus = float(input("Anna kuhan pituus senttimetreinä: "))
 vajaa_pituus = 37-kuhan_pituus
 
