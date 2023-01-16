@@ -16,8 +16,14 @@ hyttiluokka = input("Anna laivan hyttiluokka: ")
 if hyttiluokka=="LUX":
     print("Hyttiluokka on parvekkeellinen hytti yläkannella")
 
-elif hyttiluokka=="a" or "b":
+elif hyttiluokka=="a":
+    print("Hyttiluokka ikkunallinen hytti autokannen yläpuolella. ")
+
+elif hyttiluokka== "b":
     print("Hyttiluokka on ikkunaton hytti autokannen yläpuolella. ")
 
-else:
+elif hyttiluokka== "c":
     print("Hyttiluokka on ikkunaton hytti autokannen alapuolella. ")
+
+else:
+    print("Virheellinen hyttiluokka. ")
