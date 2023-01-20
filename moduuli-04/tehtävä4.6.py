@@ -34,4 +34,4 @@ while laskenta<N:
 
 print(f"Pisteitä arvottu yhteensä {laskenta}, joista {n} kpl ympyrän sisällä. ")
 pi = 4*n/N
-print(f"Pin likiarvo on {pi}. ")
+print(f"Piin likiarvo on {pi}. ")
