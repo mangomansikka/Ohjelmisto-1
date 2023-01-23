@@ -14,5 +14,5 @@ while luku!="":
 
 else:
     print(f"Suurin luku on " + max(luvut))
-    print(f"Pienin luku on " + luvut[0])
+    print(f"Pienin luku on " + min(luvut))
     print("Toiminto lopetettu. ")
