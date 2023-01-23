@@ -12,7 +12,10 @@ while luku!="":
     print(luvut)
     luku = (input("Anna seuraava luku tai lopeta painamalla Enter: "))
 
-else:
-    print(f"Suurin luku on " + max(luvut))
-    print(f"Pienin luku on " + min(luvut))
-    print("Toiminto lopetettu. ")
+if luku=="":
+    if luvut==[]:
+        print("Toiminto lopetettu. ")
+    else:
+        print(f"Suurin luku on " + max(luvut))
+        print(f"Pienin luku on " + min(luvut))
+        print("Toiminto lopetettu. ")
