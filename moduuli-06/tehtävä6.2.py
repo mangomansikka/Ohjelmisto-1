@@ -16,6 +16,7 @@ vastaus = 0
 while vastaus!=maksimi:
     vastaus = satunnainen_silmäluku()
     heitot = heitot + 1
+    print(vastaus)
 else:
-    tahkojen_summa = 21 * heitot
+    tahkojen_summa = maksimi * heitot
     print(f"Tahkojen summa on {tahkojen_summa}. ")
