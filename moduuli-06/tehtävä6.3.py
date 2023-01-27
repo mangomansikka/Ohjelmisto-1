@@ -7,12 +7,12 @@ Yksi gallona on 3,785 litraa.
 
 """
 bensiini = int(input("Anna bensiiinin määrä Yhdysvaltain nestegallonoina: "))
-def muutos():
+def muutos(bensiini):
     litramäärä = bensiini*3.785
     return litramäärä
 
-while bensiini>0:
-    print(f"Nestegallonat litroina: {muutos()}")
+while muutos(bensiini)>0:
+    print(f"Nestegallonat litroina: {muutos(bensiini)}")
     bensiini = int(input("Anna bensiiinin määrä Yhdysvaltain nestegallonoina tai lopeta syöttämällä negatiivinen luku: "))
 else:
     print("Toiminto lopetettu. ")
