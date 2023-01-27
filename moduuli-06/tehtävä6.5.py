@@ -8,11 +8,6 @@ jossa luot listan, kutsut funktiota ja tulostat sen jälkeen sekä alkuperäisen
 
 lista1=[]
 kokonaisluku= int(input("Anna kokonaisluku: "))
-def lista():
-    for n in lista1:
-        if n % 2!=0:
-            lista1.remove(n)
-    return
 
 while True:
     lista1.append(kokonaisluku)
@@ -21,6 +16,11 @@ while True:
         kokonaisluku = int(kokonaisluku)
     else:
         break
+def lista(lista1):
+    for n in lista1:
+        if n % 2!=0:
+            lista1.remove(n)
+    return
 print(f"Alkuperäinen lista: ", lista1)
-lista()
+lista(lista1)
 print(f"Karsittu lista, jossa on vain parilliset kokonaisluvut: ", lista1)
