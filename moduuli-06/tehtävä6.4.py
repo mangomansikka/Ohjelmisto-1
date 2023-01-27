@@ -5,9 +5,7 @@ jossa luot listan, kutsut funktiota ja tulostat sen palauttaman summan.
 
 """
 lista1=[]
-kokonaisluku= int(input("Anna kokonaisluku: "))
-def lista():
-    return sum(lista1)
+kokonaisluku = int(input("Anna kokonaisluku: "))
 
 while True:
     lista1.append(kokonaisluku)
@@ -16,4 +14,7 @@ while True:
         kokonaisluku = int(kokonaisluku)
     else:
         break
-print(f"Annettujen lukujen summa: ", lista())
+def lista(lista1):
+    return sum(lista1)
+
+print(f"Annettujen lukujen summa: ", lista(lista1))
