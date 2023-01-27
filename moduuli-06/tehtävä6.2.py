@@ -8,13 +8,13 @@ nopan maksimisilmäluku, joka kysytään käyttäjältä ohjelman suorituksen al
 import random
 
 maksimi = int(input("Anna nopan maksimisilmäluku: "))
-def satunnainen_silmäluku():
-    return random.randint(1, maksimi)
-
 heitot = 0
 vastaus = 0
+def satunnainen_silmäluku(maksimi):
+        return random.randint(1, maksimi)
+
 while vastaus!=maksimi:
-    vastaus = satunnainen_silmäluku()
+    vastaus = satunnainen_silmäluku(maksimi)
     heitot = heitot + 1
     print(vastaus)
 else:
