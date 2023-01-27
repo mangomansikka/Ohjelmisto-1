@@ -6,13 +6,16 @@ kunnes käyttäjä syöttää negatiivisen gallonamäärän.
 Yksi gallona on 3,785 litraa.
 
 """
-bensiini = int(input("Anna bensiiinin määrä Yhdysvaltain nestegallonoina: "))
-def muutos(bensiini):
-    litramäärä = bensiini*3.785
-    return litramäärä
+def muutos(gallonat):
+    litra= gallonat * 3.785
+    return litra
 
-while muutos(bensiini)>0:
-    print(f"Nestegallonat litroina: {muutos(bensiini)}")
-    bensiini = int(input("Anna bensiiinin määrä Yhdysvaltain nestegallonoina tai lopeta syöttämällä negatiivinen luku: "))
+annettu_arvo = float(input("Anna bensiiinin määrä Yhdysvaltain nestegallonoina: "))
+vastaus = muutos(annettu_arvo)
+
+while muutos(annettu_arvo)>0:
+    print(f"Nestegallonat litroina: {vastaus}")
+    annettu_arvo = float(input("Anna bensiiinin määrä Yhdysvaltain nestegallonoina tai lopeta syöttämällä negatiivinen luku: "))
+    vastaus = muutos(annettu_arvo)
 else:
     print("Toiminto lopetettu. ")

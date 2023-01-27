@@ -4,6 +4,8 @@ Ohjelma palauttaa listassa olevien lukujen summan. Kirjoita testausta varten pä
 jossa luot listan, kutsut funktiota ja tulostat sen palauttaman summan.
 
 """
+def lista(summa):
+    return sum(summa)
 lista1=[]
 kokonaisluku = int(input("Anna kokonaisluku: "))
 
@@ -14,7 +16,6 @@ while True:
         kokonaisluku = int(kokonaisluku)
     else:
         break
-def lista(lista1):
-    return sum(lista1)
+vastaus = lista(lista1)
 
-print(f"Annettujen lukujen summa: ", lista(lista1))
+print(f"Annettujen lukujen summa: ", vastaus)
