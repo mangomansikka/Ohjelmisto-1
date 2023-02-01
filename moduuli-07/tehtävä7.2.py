@@ -30,5 +30,5 @@ while True:
 
 lopullinen_lista = list(nimilista)
 random.shuffle(lopullinen_lista)
-for x in nimilista:
+for x in lopullinen_lista:
     print(x)
