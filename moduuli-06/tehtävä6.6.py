@@ -8,11 +8,9 @@ Yksikköhintojen laskennassa on hyödynnettävä kirjoitettua funktiota.
 """
 import math
 def pinta_ala(halkaisija, hinta):
-    halk_m = halkaisija/100
-    säde = halk_m/2
-    a = math.pi * säde**2
+    a = (halkaisija**2*math.pi/4)/1000
     hinta_e = hinta/a
-    return a, hinta_e
+    return hinta_e
 
 halk1 = int(input("Anna ensimmäisen pizzan halkaisija senttimetreinä: "))
 halk2 = int(input("Anna toisen pizzan halkaisija senttimetreinä: "))
@@ -21,7 +19,8 @@ hinta2 = int(input("Anna toisen pizzan hinta euroina: "))
 
 yksikköhinta1 = pinta_ala(halk1, hinta1)
 yksikköhinta2 = pinta_ala(halk2, hinta2)
-
+#print(yksikköhinta1)
+#print(yksikköhinta2)
 if yksikköhinta2>yksikköhinta1:
     print("Ensimmäinen pizza antaa paremman vastineen rahalle. ")
 else:
