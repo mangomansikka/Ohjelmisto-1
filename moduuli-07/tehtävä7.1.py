@@ -23,9 +23,9 @@ elif (kuukausi >= 3 and kuukausi <= 5):
     vuodenaika = vuodenajat[0]
 elif (kuukausi >=6 and kuukausi <=8):
     vuodenaika = vuodenajat[1]
-elif(kuukausi >=9 and kuukausi<=11):
+elif (kuukausi >=9 and kuukausi<=11):
     vuodenaika = vuodenajat[2]
-elif(kuukausi==12):
+elif (kuukausi==12):
     vuodenaika = vuodenajat[3]
 else:
     vuodenaika = "Nyt en kyllä osaa sanoa"
