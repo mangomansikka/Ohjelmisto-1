@@ -5,7 +5,6 @@ syötettiinkö nimi ensimmäistä kertaa. Lopuksi ohjelma luettelee syötetyt ni
 mielivaltaisessa järjestyksessä. Käytä joukkotietorakennetta nimien tallentamiseen.
 
 """
-import random
 
 def sama(nimi, lista):
     arvo = 1
