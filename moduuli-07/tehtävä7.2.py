@@ -27,8 +27,5 @@ while True:
             syöttö = input("Aiemmin syötetty. Anna toinen nimi tai lopeta painamalla enter: ")
     else:
         break
-
-lopullinen_lista = list(nimilista)
-random.shuffle(lopullinen_lista)
-for x in lopullinen_lista:
+for x in nimilista:
     print(x)
